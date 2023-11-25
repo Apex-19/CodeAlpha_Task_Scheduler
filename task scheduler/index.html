@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Scheduler">
+        <h1><u>Task Scheduler with Notifications</u></h1>
+        <input type="text" id="taskInput" placeholder="Enter Task">
+        <input type="datetime-local" id="taskDate"><br>
+        <button onclick="scheduleTask()">Schedule the Task</button>
+    </div>
+
+    <div class="list-task">
+        <h2><i><u>Scheduled Tasks</u></i></h2>
+        <ul id="tasks"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
